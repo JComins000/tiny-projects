@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+.contain {
+    margin: 25px 25px;
+}
+input[type=file] {
+    width: 1px;
+    position: absolute;
+    visibility: hidden;
+}
+textarea {
+    min-height: 50px;
+    resize: none;
+}
+.wide {
+    width: 100%;
+    font-size: 16px;
+}
+.btn {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    color: #222;
+    border-width: 1px;
+    border-color: #999;
+    border-style: solid;
+}
+.match {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #eee;
+}
+.mark {
+    border-radius: 20%;
+}
+.mark:nth-child(odd) {background-color: #fff8cc;}
+.mark:nth-child(even) {background-color: #f8ffcc;}
+#wc {
+    overflow-wrap: break-word;
+}
+#wc > div {
+    margin: 25px 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
