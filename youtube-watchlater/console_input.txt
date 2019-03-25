@@ -1,0 +1,1 @@
+[function(x){return ~~(x/3600)},function(x){return ~~(x%3600/60)},function(x){return x%60}].map(fn => fn(Array.prototype.map.call(document.getElementsByClassName('timestamp'), x => x.childNodes[0].innerHTML.split(':').reduce((x,y) => 60*x+parseInt(y))).reduce((x,y) => x+y))).join(':')
